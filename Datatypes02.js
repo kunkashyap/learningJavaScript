@@ -25,3 +25,12 @@ console.log(typeof booleanisLoggedIn);
 // 1 => true ; 0 => false
 // "" (empty string ) => false
 // "kunal" => true
+
+console.log("*****************")
+
+
+let someNumber = 7
+let stringNumber = String(someNumber)
+console.log(typeof stringNumber);
+console.log(stringNumber)
+
