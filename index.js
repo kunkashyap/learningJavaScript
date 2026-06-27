@@ -13,6 +13,8 @@ already declared
 const accountId = 33545;
 let accountEmail = "kunalkashyap@xyz.com";
 var accountPassword = "12345678";
+
+
 accountCity = "Delhi";
 
 // accountId = 2; Throw an error
