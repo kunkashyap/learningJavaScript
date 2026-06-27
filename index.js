@@ -30,4 +30,7 @@ accountCity = "Mussorie";
 console.table([accountId, accountEmail, accountPassword, accountCity]);
 
 
-
+/*
+Prefer not to use var
+bcs of issue in block scope and function scope
+ */
