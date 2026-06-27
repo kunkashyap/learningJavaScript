@@ -34,3 +34,34 @@ let stringNumber = String(someNumber)
 console.log(typeof stringNumber);
 console.log(stringNumber)
 
+
+
+
+
+//***************** OPERATIONS *********************
+console.log("***************** OPERATIONS *********************")
+
+//Why String to Number conversion is confusing ?
+
+
+let value = 3
+let negValue = -value
+console.log(negValue)
+
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2**3)
+// console.log(2%4)
+
+let str1 = "hello"
+let str2 = " kunal"
+
+let str3 = str1 + str2
+console.log(str3)
+
+//Why String to Number conversion is confusing ?
+console.log("1"+2) //=> 12
+console.log(2+"1") //=> 21
+console.log("1"+ 2 + 2) //=> 122
+console.log(1+2+"2") //=> 32
