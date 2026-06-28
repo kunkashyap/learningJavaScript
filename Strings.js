@@ -27,3 +27,13 @@ console.log(gameName.charAt(3))
 
 //To see index of the given Character
 console.log(gameName.indexOf('t')) //=> Return -1 bcs 't' doesn't exist in gameName
+
+
+const gameName2 = new String('K--007')
+//String Slice (substring)
+
+const newString = gameName2.substring(3,5) //Start value included ,End value is excluded
+console.log(newString)
+
+const anotherString = gameName2.slice(-6,5)
+console.log(anotherString)
