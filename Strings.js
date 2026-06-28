@@ -55,3 +55,10 @@ console.log(url.includes('kunal'))
 
 //To split the string with some reference
 console.log(url.split("kunal")) //RETURNS ARRAY by removing the given element/string
+
+
+const surname = "Kashyap"
+//Concatenation
+
+const fullName =`${name} ${surname}`
+console.log(fullName)
