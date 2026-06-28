@@ -37,3 +37,21 @@ console.log(newString)
 
 const anotherString = gameName2.slice(-6,5)
 console.log(anotherString)
+
+
+const madString = "                 kunal                          "
+console.log(madString)
+console.log(madString.trim()) //Removes starting and ending blank spaces
+
+console.log(madString.replace("kunal", "kunal kashyap"))
+
+
+//To replace this %20 in below url:
+const url = "https://kunalkashy%20ap.com/"
+console.log(url.replace("%20",""))
+
+//To check whether the string have the given name
+console.log(url.includes('kunal'))
+
+//To split the string with some reference
+console.log(url.split("kunal")) //RETURNS ARRAY by removing the given element/string
