@@ -16,3 +16,4 @@ console.log("***************MATHS*****************")
 
 
 console.log(Math.random())
+
